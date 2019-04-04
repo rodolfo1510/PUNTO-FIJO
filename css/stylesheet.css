@@ -1,0 +1,86 @@
+	<style>
+	div.row{
+		text-align: center;
+	}
+	body.body{
+		background: url("");
+		background-position: 40% 10%;
+	    background-repeat: no-repeat;
+	    background-size: 80% 400%
+	}
+	table.table{
+
+		table-position: center;
+	}
+
+.body{
+  background: #343d46;
+}
+ 
+.box{
+  margin: 100px auto;
+  width: 300px;
+  height: 50px;
+}
+.redondeado {
+   border-radius: 5px;
+ }
+
+.personalizado {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:black;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:white;
+border-color: white;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+}
+.tableta tr:nth-child(even){
+	background-color: #837F7E; 
+    width: 25%;
+    height: 20%;
+    border: 5px;
+    border-color: #070200;
+    color: black;
+}
+.tableta tr:nth-child(odd){
+	background-color: #F0EAE8; 
+    width: 25%;
+    height: 20%;
+    border: 5px;
+    border-color: #070200;
+    color: black;
+}
+.PER{
+font-family: Arial;
+ font-size: 10pt;
+  width: 200px; 
+  height: 30px; 
+  background: #777777; 
+  color: #fff444;
+   cursor: pointer;
+   text-align:center;
+   margin-right: -23%;
+   border-style: solid;
+border-radius:35px;
+}
+.tableta tr{
+	text-align: center;
+	width: 25%;
+    height: 20%;
+}
+.tableta th{
+	text-align: center;
+}
+
+ 
+
+
+
+</style>

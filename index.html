@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+function mostrar(id) {
+  obj = document.getElementById(id);
+  obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';
+}
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Metodo punto fijo</title>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<script src="http://nerdamer.com/js/nerdamer.core.js"></script>
+<script src="http://nerdamer.com/js/Algebra.js"></script>
+<script src="http://nerdamer.com/js/Calculus.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+           
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">ANALISIS NUMERICO</a><br>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a class="page-scroll" href="#services">RODOLFO ALEXIS FUENTES DIAZ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+
+<div class="row">
+    <div class=""></div>
+    <font color="#fff444" face="times new roman">
+      <h3 align="center">BIENVENIDO/A</h3><br>
+      <h3 align="center">METODO DE PUNTO FIJO</h3>
+       <center><img src="logo.jpg" width="1300" height="400"  align="center" border="40%" ></center>
+    </font>
+        <form>
+            <div class="form-group">
+<div class="box">
+  <div class="container-1">
+    <font color="#fff444" face="times new roman">
+     <p><h3 align="center">FUNCION A EVALUAR</h3></p>
+ </font>
+     <p> <input id="funcion" class="redondeado" type="text" placeholder="g(x)" size="30" required></p>
+      <p><input id="Aprox" class="redondeado" type="text" placeholder="primera aproximacion"  size="30" required></p>
+  </div>
+</div>
+        </form>
+</div>
+
+<div class="col-lg-10">
+ <center><button  type="button" class="PER" onclick="obtenerdatos()">ENCONTRA RAIZ</button></center>
+</div>
+<br>
+<P>
+<center>
+<table class="tableta" border="2px solid black"; width="400" >
+<thead>
+    <tr>
+        <th>n</th>
+        <th>Xn</th>
+    </tr>
+</thead>    
+<tbody id="resultados">
+</tbody>
+</table>
+</p>
+<div>
+    <h1  id="totalraiz"></h1>
+</div>
+<br>
+</center>
+<center><div class="col-lg-10">
+ <button class="PER" type="button"  onclick="location.reload()">LIMPIAR PAGINA</button>
+</div></center>
+<br>
+<br>
+<br>
+<br>
+
+    </header>
+
+    <script src="js/creative.min.js"></script>
+<script src="js/punto.js"></script>
+</body>
+
+</html>
